@@ -13,6 +13,8 @@ from discord.ext import commands, tasks
 DB_PATH = os.getenv("DATABASE_PATH", "pokemon_league.db")
 TIMEZONE = ZoneInfo(os.getenv("TOURNAMENT_TIMEZONE", "America/Chicago"))
 
+#I AM LEAVING A COMMENT ON THIS FILE!
+print("my very cool addition")
 
 def connect() -> sqlite3.Connection:
     db = sqlite3.connect(DB_PATH)
